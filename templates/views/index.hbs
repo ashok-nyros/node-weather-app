@@ -1,0 +1,30 @@
+{{>header}}
+
+<body>
+    {{!-- Navbar block --}}
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark" style="background-color: #1a8cff;">
+        <a class="navbar-brand" href="#">{{this.title}}</a>
+        <ul class="navbar-nav ml-auto" style="margin-right: 200px;">
+            <li class="nav-item active">
+                <a class="nav-link" href="/" style="color: aliceblue;">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">ABOUT</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<div class="container">
+    <div class="location-text" style="text-align: center;">
+        <h4 id="title">Check your location weather</h4>
+        <input type="text" id="location" placeholder="Enter location to get weather" name="lname" maxlength="50"><br>
+        <div class="button-location">
+            <button class="btn btn-primary" id="get-btn">Get Weather Report</button>
+        </div>
+    </div>
+    <div class="center weather-report" id="weatherReport"></div>
+    <div class=" center" id="error"></div>
+</div>
+{{>footer}}
+
+</html>
