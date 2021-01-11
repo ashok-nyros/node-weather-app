@@ -18,9 +18,14 @@
     <div class="location-text" style="text-align: center;">
         <h4 id="title">Check your location weather</h4>
         <input type="text" id="location" placeholder="Enter location to get weather" name="lname" maxlength="50"><br>
-        <div class="button-location">
-            <button class="btn btn-primary" id="get-btn">Get Weather Report</button>
+    </div>
+    <div class="row" style="margin-top:10px;">
+        <div class="col-md-4 offset-md-4">
+            <div id="error-message"></div>
         </div>
+    </div>
+    <div class="button-location" style="text-align: center;">
+        <button class="btn btn-primary" id="get-btn">Get Weather Report</button>
     </div>
     <div class="center weather-report" id="weatherReport"></div>
     <div class=" center" id="error"></div>

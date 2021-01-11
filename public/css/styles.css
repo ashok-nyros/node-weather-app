@@ -89,3 +89,10 @@ body {
     font-weight: 900;
     color: rgb(81, 87, 94);
 }
+
+#error-message {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
